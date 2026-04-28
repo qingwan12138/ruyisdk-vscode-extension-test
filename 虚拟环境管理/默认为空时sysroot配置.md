@@ -8,10 +8,10 @@
 
 ## 预期结果
 
-能够正常配置sysroot，创建虚拟环境
+默认为空时能够正常配置sysroot，创建虚拟环境。
 
 ## 实际结果
 
-无法正常配置sysroot
+默认为空时能够正常配置sysroot，创建虚拟环境。
 
-![sysroot消失](img/sysroot消失.png)
+![alt text](img/sysroot配置成功.png)
