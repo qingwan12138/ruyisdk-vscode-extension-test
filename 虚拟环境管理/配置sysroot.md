@@ -1,0 +1,21 @@
+# 配置sysroot
+
+## 操作步骤
+
+1. 图形化界面点击右侧加号创建虚拟环境
+2. 在上方选项栏中进行选择工具链等并填写相关参数
+3. 选择sysroot来源，创建虚拟环境
+
+## 预期结果
+
+通过不同选项能够正常处理sysroot，创建虚拟环境。
+
+## 实际结果
+
+选择default选项配置工具链自带的sysroot时，sysroot配置消失
+
+![alt text](img/sysroot配置窗口.png)
+
+![alt text](img/终端建立ruyi-venv.png)
+
+![alt text](img/sysroot配置失败.png)

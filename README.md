@@ -15,12 +15,14 @@
 + cpu: 16 核
 + 内存：4G
 + 镜像：https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
-+ 插件版本：[0.1.3-beta](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.3-beta.1)
-+ RuyiSDK版本：[0.47.0](https://github.com/ruyisdk/ruyi/releases/tag/0.47.0)
++ 插件版本：[0.1.4-beta.2](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.4-beta.2)
++ RuyiSDK版本：[0.48.0](https://github.com/ruyisdk/ruyi/releases/tag/0.48.0)
 ## 测试结果
 
-共 21 个测试用例，成功 19 个，失败 2 个。
+共 25 个测试用例，成功 21 个，失败 4 个。
 |          测试用例          | 结果  |                                          备注                                          |
 | :------------------------: | :----:| :----------------------------------------------------------------------------------------------------------: |
-|可视化build project编译|失败|开启虚拟环境时会编译本机架构|
-|sysroot配置输入非法字符|失败|输入非法字符能够配置sysroot|
+|新闻动画|失败|新闻卡片大小自适应不正常|
+|新闻中英文语言切换|失败|中英文按钮大小不一致|
+|sysroot配置|失败| 选择default选项配置工具链自带的sysroot时，sysroot配置消失|
+|i18n|失败|虚拟环境创建时相关提示均是英文|

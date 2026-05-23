@@ -9,10 +9,5 @@
 输入非法字符无法正常配置sysroot，创建虚拟环境。
 
 ## 实际结果
-输入非法字符能够正常配置sysroot，创建虚拟环境。
+输入非法字符能够无法配置sysroot，创建虚拟环境。
 
-![alt text](img/非法字符.png)
-
-![alt text](img/成功创建ruyi-venv.png)
-
-![alt text](img/正常配置sysroot.png)
