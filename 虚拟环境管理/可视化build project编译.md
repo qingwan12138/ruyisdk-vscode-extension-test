@@ -10,6 +10,6 @@
 
 ## 实际结果
 
-能够调用虚拟环境中的交叉工具链，会调用宿主机工具链，编译产物为宿主机架构
+能够调用虚拟环境中的交叉工具链，执行交叉编译，最终产物为riscv架构
 
-[PR 138修复（build）：通过VenV感知策略和日志记录增强构建系统检测](https://github.com/ruyisdk/ruyisdk-vscode-extension/pull/138)暂未合并，等待后期复查。
+![alt text](img/hello属性.png)
