@@ -12,10 +12,8 @@
 
 ## 实际结果
 
-选择default选项配置工具链自带的sysroot时，sysroot配置消失
+通过不同选项能够正常处理sysroot，创建虚拟环境。
 
 ![alt text](img/sysroot配置窗口.png)
 
-![alt text](img/终端建立ruyi-venv.png)
 
-![alt text](img/sysroot配置失败.png)
