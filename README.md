@@ -15,12 +15,14 @@
 + cpu: 16 核
 + 内存：4G
 + 镜像：https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
-+ 插件版本：[0.1.4-beta.3](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.4-beta.3)
-+ RuyiSDK版本：[0.48.0](https://github.com/ruyisdk/ruyi/releases/tag/0.48.0)
++ 插件版本：[0.1.5-beta.1](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.5-beta.1)
++ RuyiSDK版本：[0.49.0](https://github.com/ruyisdk/ruyi/releases/tag/0.48.0)
 ## 测试结果
 
-共 25 个测试用例，成功 23 个，失败 2 个。
+共 28 个测试用例，成功 25 个，失败 3 个。
 |          测试用例          | 结果  |                                          备注                                          |
 | :------------------------: | :----:| :----------------------------------------------------------------------------------------------------------: |
-|新闻中英文语言切换|失败|新闻无法离线渲染|
-|i18n|失败|版本路径等弹窗均是英文，已有修复commit|
+|仓库管理|失败 ||
+|新闻两端不一致|失败||
+|i18n|失败|新闻界面左上角仍是英文|
+|路径弹窗|成功|重新开启方式未知，setting.json文件修改|

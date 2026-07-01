@@ -14,6 +14,5 @@
 
 通过不同选项能够正常处理sysroot，创建虚拟环境。
 
-![alt text](img/sysroot配置窗口.png)
-
+![alt text](0.48sysroot.png)
 
